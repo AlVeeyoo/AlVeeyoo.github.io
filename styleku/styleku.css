@@ -1,0 +1,288 @@
+body {
+	font-size: 15px;
+}
+
+header nav .nama-web h1 {
+	color: white;
+	font-size: 2em;
+	margin-top: 3px;
+}
+
+header nav .nav-utama {
+	text-decoration: none;
+	list-style: none;
+	margin-right: 10px;
+	padding-top: 10px;
+}
+
+
+header nav .nav-utama a {
+	color: #E9E9E9;
+	margin-left: 15px;
+	padding: 3px;
+
+}
+
+header nav .nav-utama a:hover {
+	text-decoration: none;
+	color: white;
+}
+
+
+/* beranda */
+.beranda {
+	height: 500px;/*
+	padding-top: 40px;
+	padding-left: 50px;*/
+	box-sizing: border-box;
+}
+
+.beranda img {
+	width: 250px;
+	margin-top: 100px;
+	margin-left: 80px;
+}
+
+.beranda h2 {
+	float: right;
+	color: white;
+	margin-top: 185px;
+	margin-right: 510px;
+}
+
+.beranda h1 {
+	float: right;
+	color: white;
+	font-weight: bold;
+	margin-right: 380px;
+	margin-top: -45px;
+}
+
+.beranda h4 {
+	color: #E9E9E9;
+	margin-top: 50px;
+	margin-left: 280px;
+}
+
+.beranda hr {
+	width: 400px;
+	margin-left: 260px;
+}
+
+.beranda .tombol-lanjut {
+	width: 120px;
+	margin-left: 400px;
+	padding: 5px;
+	border-radius: 8px;
+}
+
+.beranda .tombol-lanjut a {
+	font-size: 1.2em;
+	color: #E9E9E9;
+}
+
+.beranda .tombol-lanjut a:hover {
+	text-decoration: none;
+	color: white;
+}
+
+
+/* profil */
+.profil {
+	height: 560px;
+	padding: 0;
+	background-color: #80D8E5;
+}
+
+.profil .judul {
+	height: 80px;
+	padding-top: 15px;
+}
+
+.profil .judul h1 {
+	color: #E9E9E9;
+}
+
+.profil .isi-profil {
+	margin: auto;
+	margin-top: 15px;
+	width: 800px;
+	height: 450px;
+	border-radius: 10px;
+	background-color: white;
+}
+
+.profil .isi-profil .paragraf-1, .paragraf-2 {
+	padding-top: 60px;
+}
+
+.profil .isi-profil img {
+	width: 200px;
+	margin-top: 15px;
+	margin-left: 15px;
+	border-radius: 50%;
+}
+
+.profil .isi-profil .photoku .nama {
+	margin-top: 25px;
+	font-size: 1.5em;
+}
+
+
+/* kemampuan */
+.kemampuan {
+	height: 100vh;
+	background-color: #80D8E5;
+}
+
+.kemampuan .judul {
+	height: 80px;
+	padding-top: 15px;	
+}
+
+.kemampuan .judul h1 {
+	color: #E9E9E9;
+}
+
+.kemampuan .isi-kemampuan {
+	width: 600px;
+	height: 410px;
+	margin-top: 20px;
+	margin-left: 20%;
+	padding:20px;
+	padding-right: 40px;
+	border-radius: 10px;
+	background-color: white;
+}
+
+.kemampuan .isi-kemampuan .text-kemampuan ul {
+	line-height: 2.5em;
+}
+
+.kemampuan .isi-kemampuan .text-kemampuan ul li {
+	font-weight: bold;
+}
+
+.kemampuan .isi-kemampuan .bintang-kemampuan ul {
+	line-height: 2.5em;
+	list-style: none;
+}
+
+
+/*pengalaman*/
+.pengalaman {
+	height: 100vh;
+	background-color: #80D8E5;
+}
+
+.pengalaman .judul {
+	height: 80px;
+	padding-top: 15px;	
+}
+
+.pengalaman .judul h1 {
+	color: #E9E9E9;
+}
+
+.pengalaman .isi-pengalaman {
+	width: 600px;
+	height: 410px;
+	margin-top: 20px;
+	padding-top: 20px;
+	border-radius: 10px;
+	background-color: white;
+}
+
+
+/* proyek */
+.proyek {
+	height: 100vh;
+	background-color: #80D8E5;
+}
+
+.proyek .judul {
+	height: 80px;
+	padding-top: 15px;	
+}
+
+.proyek .judul h1 {
+	color: #E9E9E9;
+}
+
+.proyek .isi-proyek {
+	width: 600px;
+	height: 410px;
+	margin-top: 20px;
+	padding-top: 20px;
+	border-radius: 10px;
+	background-color: white;
+}
+
+.proyek .isi-proyek ul li {
+	margin-bottom: 30px;
+}
+
+
+/* kontak */
+.kontak {
+	height: 100vh;
+	background-color: #80D8E5;
+}
+
+.kontak .judul {
+	height: 80px;
+	padding-top: 15px;	
+}
+
+.kontak .judul h1 {
+	color: #E9E9E9;
+}
+
+.kontak .isi-kontak {
+	width: 1000px;
+	height: 410px;
+	margin-top: 20px;
+	margin-left: 2%;
+	padding-top: 10px;
+	border-radius: 10px;
+	background-color: white;
+}
+
+.kontak .isi-kontak .alamat .navigasi-kontak {
+	margin-top: -280px;
+	margin-right: 70px;
+}
+
+.kontak .isi-kontak .alamat .navigasi-kontak ul {
+	list-style: none;
+	padding: 0;
+}
+
+.kontak .isi-kontak .alamat .navigasi-kontak ul li {
+	line-height: 2em;
+}
+
+.kontak .isi-kontak .alamat .navigasi-kontak ul li a {
+	font-size: 1.1em;
+	text-decoration: none;
+}
+
+.kontak .isi-kontak .formulir table tr td input {
+	width: 400px;
+	padding: 5px;
+	margin-bottom: 10px;
+}
+
+.kontak .isi-kontak .formulir table tr td textarea {
+	padding: 5px;
+	margin-right: 0;
+}
+
+.kontak .isi-kontak .formulir table tr td button {
+	width: 100px;
+	color: white;
+	font-size: 1.1em;
+	margin-top: 8px;
+	padding: 5px;
+	border-radius: 5px;
+}
